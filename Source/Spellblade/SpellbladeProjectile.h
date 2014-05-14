@@ -25,6 +25,13 @@ class ASpellbladeProjectile : public AActor
 	UFUNCTION()
 		void OnHit(AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
+	/** generates a reflection vector */
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = Projectile)
+		FVector Reflect(FVector normal);
+
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = Projectile)
+		bool SameInstigator(AActor* other);
+
 	/** initial velocity */
 	void InitVelocity(FVector const v);
 };

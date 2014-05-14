@@ -36,6 +36,26 @@ void ASpellbladeProjectile::OnHit(AActor* OtherActor, UPrimitiveComponent* Other
 	}
 }
 
+FVector ASpellbladeProjectile::Reflect(FVector normal)
+{
+	FVector out = -(ProjectileMovement->Velocity);
+	out.Normalize();
+	float dot = out | normal;
+
+	out.X = 2.f * normal.X * dot - out.X;
+	out.Y = 2.f * normal.Y * dot - out.Y;
+	out.Z = 2.f * normal.Z * dot - out.Z;
+
+	return out;
+}
+
+bool ASpellbladeProjectile::SameInstigator(AActor* other)
+{
+	if (other)
+		return Instigator == other->Instigator;
+	else return false;
+}
+
 void ASpellbladeProjectile::InitVelocity(FVector const v)
 {
 	ProjectileMovement->Velocity = v;
