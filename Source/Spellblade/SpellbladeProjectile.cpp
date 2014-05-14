@@ -38,7 +38,7 @@ void ASpellbladeProjectile::OnHit(AActor* OtherActor, UPrimitiveComponent* Other
 
 void ASpellbladeProjectile::InitVelocity(FVector const v)
 {
-	CollisionComp->SetPhysicsLinearVelocity(v);
+	ProjectileMovement->Velocity = v;
 }
 
 

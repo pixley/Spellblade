@@ -81,7 +81,7 @@ void ASpellbladeCharacter::OnFire()
 
 		//MuzzleOffset is in camera space, so transform to worldspace before offsetting from camera to fine final start position
 		FVector const MuzzleLocation = CameraLoc + FTransform(CameraRot).TransformVector(MuzzleOffset);
-		FRotator MuzzleRotation = CameraRot;
+		FRotator MuzzleRotation = CameraRot + FRotator(0.0f,-90.0f,0.0f);
 		//tutorial says to skew aim upwards, but that's for flying
 
 		UWorld* const World = GetWorld();
@@ -93,12 +93,6 @@ void ASpellbladeCharacter::OnFire()
 
 			//spawn projectile at muzzle
 			ASpellbladeProjectile* Projectile = World->SpawnActor<ASpellbladeProjectile>(ProjectileClass, MuzzleLocation, MuzzleRotation, SpawnParams);
-			if (Projectile)
-			{
-				//find launch direction
-				FVector const LaunchDir = FVector(1.0f, 0.0f, 0.0f);
-				Projectile->InitVelocity(LaunchDir);
-			}
 		}
 	}
 }

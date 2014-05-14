@@ -17,7 +17,7 @@ class ASpellbladeCharacter : public ACharacter
 		TSubobjectPtr<class USpringArmComponent> CameraBoom;
 
 	/** Offset for the projectile*/
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Gameplay)
+	UPROPERTY(EditDefaultsOnly, Category=Gameplay)
 		FVector MuzzleOffset;
 
 	/** Projectile class to spawn */
