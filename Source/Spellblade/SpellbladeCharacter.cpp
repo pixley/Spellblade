@@ -55,6 +55,8 @@ void ASpellbladeCharacter::SetupPlayerInputComponent(class UInputComponent* Inpu
 	InputComponent->BindAxis("MoveRight", this, &ASpellbladeCharacter::MoveRight);
 	InputComponent->BindAction("Fire", IE_Pressed, this, &ASpellbladeCharacter::OnFire);
 	InputComponent->BindTouch(IE_Pressed, this, &ASpellbladeCharacter::TouchStarted);
+	InputComponent->BindAxis("AimVert", this, &ASpellbladeCharacter::SetAimVert);
+	InputComponent->BindAxis("AimHorz", this, &ASpellbladeCharacter::SetAimHorz);
 }
 
 void ASpellbladeCharacter::MoveRight(float Value)
@@ -67,6 +69,18 @@ void ASpellbladeCharacter::TouchStarted(const ETouchIndex::Type FingerIndex, con
 {
 	// jump on any touch
 	Jump();
+}
+
+void ASpellbladeCharacter::SetAimVert(float value)
+{
+	Aim.Z = value;
+	Aim.Normalize();
+}
+
+void ASpellbladeCharacter::SetAimHorz(float value)
+{
+	Aim.Y = value;
+	Aim.Normalize();
 }
 
 void ASpellbladeCharacter::OnFire()
@@ -93,6 +107,18 @@ void ASpellbladeCharacter::OnFire()
 
 			//spawn projectile at muzzle
 			ASpellbladeProjectile* Projectile = World->SpawnActor<ASpellbladeProjectile>(ProjectileClass, MuzzleLocation, MuzzleRotation, SpawnParams);
+			if (Projectile)
+			{
+				if (Aim.IsNearlyZero()) {
+					FVector default = GetActorRotation().Vector();
+					default.X = 0;
+					default.Normalize();
+					Projectile->InitVelocity(default * Projectile->ProjectileMovement->InitialSpeed);
+				}
+				else {
+					Projectile->InitVelocity(Aim * -(Projectile->ProjectileMovement->InitialSpeed));
+				}
+			}
 		}
 	}
 }

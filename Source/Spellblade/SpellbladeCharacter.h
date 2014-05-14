@@ -20,18 +20,27 @@ class ASpellbladeCharacter : public ACharacter
 	UPROPERTY(EditDefaultsOnly, Category=Gameplay)
 		FVector MuzzleOffset;
 
+	/** Aim vector */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Gameplay)
+		FVector Aim;
+
 	/** Projectile class to spawn */
 	UPROPERTY(EditDefaultsOnly, Category = Projectile)
 		TSubclassOf<class ASpellbladeProjectile> ProjectileClass;
-
-	/** Events upon firing */
-	UFUNCTION()
-		void OnFire();
 
 protected:
 
 	/** Called for side to side input */
 	void MoveRight(float Val);
+
+	/** Events upon firing */
+	void OnFire();
+
+	/** sets the vertical component of the aim vector */
+	void SetAimVert(float value);
+
+	/** sets the horizontal component of the aim vector */
+	void SetAimHorz(float value);
 
 	/** Handle touch inputs. */
 	void TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location);

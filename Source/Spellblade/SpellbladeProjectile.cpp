@@ -19,7 +19,7 @@ ASpellbladeProjectile::ASpellbladeProjectile(const class FPostConstructInitializ
 	ProjectileMovement->UpdatedComponent = CollisionComp;
 	ProjectileMovement->InitialSpeed = 3000.f;
 	ProjectileMovement->MaxSpeed = 3000.f;
-	ProjectileMovement->bRotationFollowsVelocity = true;
+	ProjectileMovement->bRotationFollowsVelocity = false;
 	ProjectileMovement->bShouldBounce = true;
 
 	// Die after 3 seconds by default
