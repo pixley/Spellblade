@@ -1,6 +1,8 @@
 Spellblade
 ==========
 
+You are currently on the deprecated side-scroller branch.  I've decided to move to a top-down twin-stick scheme.
+
 Just me playing with some ideas on UE4
 
 Play requires the use of a XInput-compatible controller.  Left stick moves the character, right stick aims the projectile, and right trigger fires a fireball.
