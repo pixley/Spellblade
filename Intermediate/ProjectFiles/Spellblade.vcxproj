@@ -1,0 +1,1143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Game|Win32">
+			<Configuration>Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Game|x64">
+			<Configuration>Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Editor|Win32">
+			<Configuration>Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Editor|x64">
+			<Configuration>Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Game|Win32">
+			<Configuration>Mac_Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Game|x64">
+			<Configuration>Mac_Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Editor|Win32">
+			<Configuration>Mac_Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Editor|x64">
+			<Configuration>Mac_Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Game|Win32">
+			<Configuration>IOS_Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Game|x64">
+			<Configuration>IOS_Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Editor|Win32">
+			<Configuration>IOS_Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Editor|x64">
+			<Configuration>IOS_Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Game|Win32">
+			<Configuration>WinRT_Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Game|x64">
+			<Configuration>WinRT_Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Editor|Win32">
+			<Configuration>WinRT_Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Editor|x64">
+			<Configuration>WinRT_Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Game|Win32">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Game|x64">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|Win32">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|x64">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Game|Win32">
+			<Configuration>Mac_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Game|x64">
+			<Configuration>Mac_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Editor|Win32">
+			<Configuration>Mac_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Editor|x64">
+			<Configuration>Mac_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Game|Win32">
+			<Configuration>IOS_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Game|x64">
+			<Configuration>IOS_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Editor|Win32">
+			<Configuration>IOS_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Editor|x64">
+			<Configuration>IOS_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Game|Win32">
+			<Configuration>WinRT_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Game|x64">
+			<Configuration>WinRT_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Editor|Win32">
+			<Configuration>WinRT_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Editor|x64">
+			<Configuration>WinRT_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|Win32">
+			<Configuration>Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|x64">
+			<Configuration>Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|Win32">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|x64">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Game|Win32">
+			<Configuration>Mac_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Game|x64">
+			<Configuration>Mac_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Editor|Win32">
+			<Configuration>Mac_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Editor|x64">
+			<Configuration>Mac_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Game|Win32">
+			<Configuration>IOS_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Game|x64">
+			<Configuration>IOS_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Editor|Win32">
+			<Configuration>IOS_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Editor|x64">
+			<Configuration>IOS_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Game|Win32">
+			<Configuration>WinRT_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Game|x64">
+			<Configuration>WinRT_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Editor|Win32">
+			<Configuration>WinRT_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Editor|x64">
+			<Configuration>WinRT_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|Win32">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|x64">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Shipping_Game|Win32">
+			<Configuration>Mac_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Shipping_Game|x64">
+			<Configuration>Mac_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Game|Win32">
+			<Configuration>IOS_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Game|x64">
+			<Configuration>IOS_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Shipping_Game|Win32">
+			<Configuration>WinRT_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Shipping_Game|x64">
+			<Configuration>WinRT_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Test_Game|Win32">
+			<Configuration>Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Test_Game|x64">
+			<Configuration>Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Test_Game|Win32">
+			<Configuration>Mac_Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Test_Game|x64">
+			<Configuration>Mac_Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Test_Game|Win32">
+			<Configuration>IOS_Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Test_Game|x64">
+			<Configuration>IOS_Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Test_Game|Win32">
+			<Configuration>WinRT_Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Test_Game|x64">
+			<Configuration>WinRT_Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\Spellblade.uproject" />
+		<None Include="..\..\Source\Spellblade.Target.cs" />
+		<None Include="..\..\Source\SpellbladeEditor.Target.cs" />
+		<None Include="..\..\Config\DefaultEditor.ini" />
+		<None Include="..\..\Config\DefaultEngine.ini" />
+		<None Include="..\..\Config\DefaultGame.ini" />
+		<None Include="..\..\Config\DefaultInput.ini" />
+		<None Include="..\..\Source\Spellblade\Spellblade.Build.cs" />
+		<ClCompile Include="..\..\Source\Spellblade\Spellblade.cpp" />
+		<ClInclude Include="..\..\Source\Spellblade\Spellblade.h" />
+		<ClCompile Include="..\..\Source\Spellblade\SpellbladeCharacter.cpp" />
+		<ClInclude Include="..\..\Source\Spellblade\SpellbladeCharacter.h" />
+		<ClCompile Include="..\..\Source\Spellblade\SpellbladeGameMode.cpp" />
+		<ClInclude Include="..\..\Source\Spellblade\SpellbladeGameMode.h" />
+		<ClCompile Include="..\..\Source\Spellblade\SpellbladeProjectile.cpp" />
+		<ClInclude Include="..\..\Source\Spellblade\SpellbladeProjectile.h" />
+		<None Include="..\..\Source\Spellblade\Resources\Windows\Spellblade.ico" />
+		<ResourceCompile Include="..\..\Source\Spellblade\Resources\Windows\Spellblade.rc" />
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{60BD6952-25AE-4A32-9AE9-AB4FF56F1BBF}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>Spellblade</RootNamespace>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Spellblade-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\Win32\UE4Editor-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Spellblade-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\Spellblade-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\Spellblade-IOS-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\IOS\SpellbladeEditor-IOS-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\Spellblade-WinRT-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\WinRT\SpellbladeEditor-WinRT-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Spellblade-Win32-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Spellblade-Win64-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\Spellblade-Mac-DebugGame</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\Spellblade-IOS-DebugGame</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\IOS\SpellbladeEditor-IOS-DebugGame</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\Spellblade-WinRT-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\WinRT\SpellbladeEditor-WinRT-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Spellblade.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Spellblade.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\Spellblade</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\Spellblade</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\IOS\SpellbladeEditor</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\Spellblade.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat SpellbladeEditor WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SpellbladeEditor WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SpellbladeEditor WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Binaries\WinRT\SpellbladeEditor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Win32 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Win32 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Win32 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Spellblade-Win32-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Win64 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Win64 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Win64 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Spellblade-Win64-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Mac Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Mac Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Mac Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\Spellblade-Mac-Shipping</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade IOS Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade IOS Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade IOS Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\Spellblade-IOS-Shipping</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade WinRT Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade WinRT Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade WinRT Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\Spellblade-WinRT-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Win32 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Win32 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Win32 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Spellblade-Win32-Test.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Win64 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Win64 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Win64 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Spellblade-Win64-Test.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade Mac Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade Mac Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade Mac Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\Spellblade-Mac-Test</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade IOS Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade IOS Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade IOS Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\Spellblade-IOS-Test</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Build.bat Spellblade WinRT Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat Spellblade WinRT Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Build\BatchFiles\Clean.bat Spellblade WinRT Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\Spellblade-WinRT-Test.exe</NMakeOutput>
+	</PropertyGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);UE_GAME=1;IS_PROGRAM=0;UE_ROCKET=0;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;USE_LOGGING_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=1;WITH_EDITORONLY_DATA=0;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;WIN32=1;_WIN32_WINNT=0x0600;WINVER=0x0600;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;UE_ENGINE_DIRECTORY=../../../UnrealEngine/Engine/;ORIGINAL_FILE_NAME="Spellblade.exe";SPELLBLADE_API=;UE_ENABLE_ICU=1;WITH_STEAMWORKS=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;WITH_PHYSX=1;WITH_APEX=1;WITH_RECAST=1;WITH_SPEEDTREE=0;ENGINE_API=;SLATE_API=;INPUTCORE_API=;MESSAGING_API=;NETWORKING_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;RENDERCORE_API=;RHI_API=;SHADERCORE_API=;ASSETREGISTRY_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;UE_EDITOR=1;USE_NETWORK_PROFILER=1;WITH_SIMPLYGON=0;UNREALED_API=;BSPMODE_API=;DOCUMENTATION_API=;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;XAUDIO2_API=;USERFEEDBACK_API=;COLLECTIONMANAGER_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source;..\..\Source;..\Build\Win64\Spellblade\Inc\Spellblade;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Internationalization;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Async;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Concurrency;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Containers;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\HAL;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Math;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Misc;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization\Json;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Stats;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Templates;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\UObject;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Core\Public\Windows;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\CoreUObject\Classes;..\Build\Win64\Spellblade\Inc\CoreUObject;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Engine\Classes;..\Build\Win64\Spellblade\Inc\Engine;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Engine\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Engine\Public\AI;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Engine\Public\Landscape;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Engine\Public\Net;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Engine\Public\Slate;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Slate\Classes;..\Build\Win64\Spellblade\Inc\Slate;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Slate\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Slate\Public\Docking;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Slate\Public\DockingFramework;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Slate\Public\IOS;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Slate\Public\MultiBox;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Slate\Public\TableView;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Slate\Public\Testing;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Slate\Public\Text;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Slate\Public\TutorialSystem;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;..\Build\Win64\Spellblade\Inc\InputCore;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\InputCore\Public;..\Build\Win64\Spellblade\Inc\Messaging;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Messaging\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Messaging\Public\Common;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Messaging\Public\Interfaces;..\Build\Win64\Spellblade\Inc\Networking;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Networking\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Networking\Public\Common;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Networking\Public\Interfaces;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Networking\Public\Interfaces\IPv4;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Networking\Public\Interfaces\Steam;..\Build\Win64\Spellblade\Inc\Sockets;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Sockets\Public;..\Build\Win64\Spellblade\Inc\RenderCore;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\RenderCore\Public;..\Build\Win64\Spellblade\Inc\RHI;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\RHI\Public;..\Build\Win64\Spellblade\Inc\ShaderCore;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\ShaderCore\Public;..\Build\Win64\Spellblade\Inc\AssetRegistry;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\AssetRegistry\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\EngineMessages\Classes;..\Build\Win64\Spellblade\Inc\EngineMessages;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\EngineMessages\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\EngineSettings\Classes;..\Build\Win64\Spellblade\Inc\EngineSettings;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\EngineSettings\Public;..\Build\Win64\Spellblade\Inc\SynthBenchmark;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Developer\SynthBenchmark\Public;..\Build\Win64\Spellblade\Inc\Renderer;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Renderer\Public;..\Build\Win64\Inc\Spellblade;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\CoreUObject;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Engine;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Slate;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\InputCore;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Messaging;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Networking;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Sockets;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\RenderCore;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\RHI;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\ShaderCore;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\AssetRegistry;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\EngineMessages;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\EngineSettings;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\SynthBenchmark;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Renderer;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UnrealEd\Classes;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\UnrealEd;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UnrealEd\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Commandlets;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Dialogs;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Features;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Kismet2;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Layers;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Toolkits;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\BspMode;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\BspMode\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Documentation;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\Documentation\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Projects;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Projects\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\SandboxFile;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\SandboxFile\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\EditorStyle;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\EditorStyle\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Classes;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Interfaces;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\SourceControl;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Developer\SourceControl\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Classes;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\UnrealEdMessages;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\XAudio2;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Runtime\Windows\XAudio2\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\UserFeedback;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Editor\UserFeedback\Public;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\CollectionManager;C:\Users\Tyler\Documents\GitHub\UnrealEngine\Engine\Source\Developer\CollectionManager\Public;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

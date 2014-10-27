@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Spellblade.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{0A41C3D8-A68B-4DDC-9CF1-FB5E555F7620}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Spellblade.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SpellbladeEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{FC70E4BA-5738-4266-9971-0371BEA74EA3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Spellblade">
+			<UniqueIdentifier>{1BF72C6E-8D15-472D-9663-8D5CB31DE8B5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Spellblade\Spellblade.Build.cs">
+			<Filter>Source\Spellblade</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Spellblade\Spellblade.cpp">
+			<Filter>Source\Spellblade</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Spellblade\Spellblade.h">
+			<Filter>Source\Spellblade</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Spellblade\SpellbladeCharacter.cpp">
+			<Filter>Source\Spellblade</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Spellblade\SpellbladeCharacter.h">
+			<Filter>Source\Spellblade</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Spellblade\SpellbladeGameMode.cpp">
+			<Filter>Source\Spellblade</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Spellblade\SpellbladeGameMode.h">
+			<Filter>Source\Spellblade</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Spellblade\SpellbladeProjectile.cpp">
+			<Filter>Source\Spellblade</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Spellblade\SpellbladeProjectile.h">
+			<Filter>Source\Spellblade</Filter>
+		</ClInclude >
+		<Filter Include="Source\Spellblade\Resources">
+			<UniqueIdentifier>{61F71F1C-AD09-44ED-9C09-7FBDED097810}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Spellblade\Resources\Windows">
+			<UniqueIdentifier>{5A5F54F4-49A5-442C-B544-0E173E3FC739}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Spellblade\Resources\Windows\Spellblade.ico">
+			<Filter>Source\Spellblade\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\Spellblade\Resources\Windows\Spellblade.rc">
+			<Filter>Source\Spellblade\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

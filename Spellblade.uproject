@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "0.0",
+	"EngineVersion": "4.1.1-0+UE4",
+	"PackageFileUE4Version": 352,
+	"PackageFileLicenseeUE4Version": 0,
+	"EngineAssociation": "{6D5F7BBB-44B5-A43E-3D90-C893A11E0A12}",
+	"FriendlyName": "",
+	"Description": "",
+	"Category": "",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"Modules": [
+		{
+			"Name": "Spellblade",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"EpicSampleNameHash": "0"
+}

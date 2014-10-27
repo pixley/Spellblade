@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{03BC090B-95C2-4A90-88AD-4668CFDD6812}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\UnrealEngine\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{E5A7B0B0-5C80-48CC-94F4-AC3F4A19CEFF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{FA34D1CA-843F-4495-939D-A8E7793AE7C5}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="..\..\..\UnrealEngine\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\UnrealEngine\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\ShaderCompileWorker\Resources\resource.h">
+			<Filter>Resources</Filter>
+		</ClInclude >
+		<ResourceCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\ShaderCompileWorker\Resources\Resource.rc">
+			<Filter>Resources</Filter>
+		</ResourceCompile >
+		<Manifest Include="..\..\..\UnrealEngine\Engine\Source\Programs\ShaderCompileWorker\Resources\Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\UnrealEngine\Engine\Source\Programs\ShaderCompileWorker\Resources\Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+	</ItemGroup>
+</Project>

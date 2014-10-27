@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{EBD0C40D-3A7B-4762-9AB7-DBD062BA54AE}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\CodeGenerator.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\NativeClassExporter.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolMain.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Public">
+			<UniqueIdentifier>{40EDABF4-9366-4D1D-8896-4222461A3BDF}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Public\UnrealHeaderTool.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{FC7C0036-E903-4883-BB99-E7CFAC867545}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\PCLaunch.rc">
+			<Filter>Resources</Filter>
+		</ResourceCompile >
+		<Manifest Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Filter Include="Resources\UHTDebugging">
+			<UniqueIdentifier>{FB6DC366-F74C-42CF-9B47-B8BC72C7F258}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h">
+			<Filter>Resources\UHTDebugging</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\StructOnlyHeader.h">
+			<Filter>Resources\UHTDebugging</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterface.h">
+			<Filter>Resources\UHTDebugging</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterfaceObject.h">
+			<Filter>Resources\UHTDebugging</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObject.h">
+			<Filter>Resources\UHTDebugging</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
